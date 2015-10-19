@@ -6,4 +6,6 @@ Download train.csv and test.csv from https://www.kaggle.com/c/springleaf-marketi
 
 The dataset needs to be processed first before a predictive model can be created. To process data that can be turned into binary format run `binary.py` and `prune.py` within the binary folder and to process data that can be represented numerically, run `pipeline.py` within the numeric folder.
 
+To create a predictive model, run `model.py`. The code within `baseline.py` and `basic.py` create very basic models.
+
 Parameters within the files may need to be tweaked.
