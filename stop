@@ -1,0 +1,8 @@
+from os.path import isfile
+
+import model
+
+while not isfile('stop'):
+	reload(model)
+
+
